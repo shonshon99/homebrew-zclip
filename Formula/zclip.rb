@@ -2,7 +2,7 @@ class Zclip < Formula
   desc "Persistent clipboard history daemon for macOS"
   homepage "https://github.com/shonshon99/zclip"
   url "https://github.com/shonshon99/zclip/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "489da5caa2434a11c3131ca7e75641ac995d0919eb811788bab3a3147c8835d5"
+  sha256 "9066ee2bf13e2c209e13644be0ae31e1f57e2a779fed841375c4a6d496666fd5"
   license "MIT"
 
   depends_on "zig" => :build
