@@ -16,6 +16,6 @@ class Zclip < Formula
 
   test do
     # No recognized subcommand prints the usage banner and exits 2.
-    assert_match "persistent clipboard history", shell_output("#{bin}/zclip --help", 2)
+    assert_match "persistent clipboard history", shell_output("#{bin}/zclip --help 2>&1", 2)
   end
 end
